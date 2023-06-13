@@ -124,7 +124,7 @@ class _HeroCtaState extends State<HeroCta> {
                       title: 'Email',
                       icon: FontAwesomeIcons.envelope,
                       onTap: () {
-                        UrlLaunch.makeEmail(body: 'Hello, ', email: emailId, subject: 'Hello, I need Assistant');
+                        UrlLaunch.makeEmail(body: 'Hello Peter, ', email: emailId, subject: '');
                       },
                     )
                   ],
