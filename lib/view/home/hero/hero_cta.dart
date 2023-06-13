@@ -68,11 +68,21 @@ class _HeroCtaState extends State<HeroCta> {
                   child: Container(
                     alignment: Alignment.centerRight,
                     padding: const EdgeInsets.all(20),
-                    child: const CircleAvatar(
-                      backgroundColor: Colors.black12,
-                      radius: 300,
-                      backgroundImage: AssetImage(
+                    // child: const CircleAvatar(
+                    //   backgroundColor: Colors.black12,
+                    //   radius: 300,
+                    //   backgroundImage: AssetImage(
+                    //     'assets/images/my_pic.jpg',
+                    //   ),
+                    // ),
+                    // circular image
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(50),
+                      child: Image.asset(
                         'assets/images/my_pic.jpg',
+                        fit: BoxFit.cover,
+                        width: 400,
+                        height: 550,
                       ),
                     ),
                   ),

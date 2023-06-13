@@ -1,11 +1,11 @@
 {
-    "name": "Om Chauhan",
-    "short_name": "Om Chauhan",
+    "name": "Peter Atef",
+    "short_name": "Peter Atef",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A Flutter Developer Portfolio Website",
+    "description": "Developer Portfolio Website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

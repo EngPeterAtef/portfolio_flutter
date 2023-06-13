@@ -37,7 +37,7 @@ class MobileHeader extends StatelessWidget {
                 ),
                 const SizedBox(width: 20.0),
                 TextBuilder(
-                  text: 'Om Portfolio',
+                  text: 'Peter Portfolio',
                   fontSize: 22,
                   textAlign: TextAlign.left,
                   fontWeight: FontWeight.w800,

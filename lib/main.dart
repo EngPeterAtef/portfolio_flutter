@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      useInheritedMediaQuery: true,
+      // useInheritedMediaQuery: true,
       debugShowCheckedModeBanner: false,
-      title: 'Om Chauhan',
-      theme: ThemeData(brightness: Brightness.light, primarySwatch: Colors.blue),
+      title: 'Peter Atef',
+      theme: ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
       darkTheme: ThemeData(brightness: Brightness.dark),
       home: const Home(),
     );

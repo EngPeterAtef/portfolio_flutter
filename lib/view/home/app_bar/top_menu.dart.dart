@@ -41,7 +41,7 @@ class _TopMenuState extends State<TopMenu> {
                 ),
                 const SizedBox(width: 10.0),
                 TextBuilder(
-                  text: 'Om Portfolio',
+                  text: 'Peter Portfolio',
                   fontSize: 26,
                   textAlign: TextAlign.left,
                   fontWeight: FontWeight.w600,

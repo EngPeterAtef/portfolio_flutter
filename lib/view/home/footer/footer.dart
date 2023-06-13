@@ -39,19 +39,19 @@ class _FooterState extends State<Footer> {
                   color: Colors.black,
                 ),
               ),
-              IconButton(
-                onPressed: () {
-                  if (kDebugMode) {
-                    print('Twitter Button Clicked');
-                  }
+              // IconButton(
+              //   onPressed: () {
+              //     if (kDebugMode) {
+              //       print('Twitter Button Clicked');
+              //     }
 
-                  UrlLaunch.launchInBrowser(url: twitter);
-                },
-                icon: const FaIcon(
-                  FontAwesomeIcons.twitter,
-                  color: Colors.black,
-                ),
-              ),
+              //     UrlLaunch.launchInBrowser(url: twitter);
+              //   },
+              //   icon: const FaIcon(
+              //     FontAwesomeIcons.twitter,
+              //     color: Colors.black,
+              //   ),
+              // ),
               IconButton(
                 onPressed: () {
                   if (kDebugMode) {
